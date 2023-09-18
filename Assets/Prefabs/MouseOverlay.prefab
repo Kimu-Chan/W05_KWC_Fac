@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7510343130976844480}
   - component: {fileID: 2768686923190349802}
   - component: {fileID: 6867710236247367233}
-  m_Layer: 23
+  m_Layer: 0
   m_Name: MouseOverlay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 3676920293326745434}
   - component: {fileID: 9044887566872688833}
   - component: {fileID: 7200508917688085413}
-  m_Layer: 23
+  m_Layer: 0
   m_Name: MouseOverlayText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
