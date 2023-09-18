@@ -1,0 +1,62 @@
+[
+    {
+        "id": 0,
+        "name": "Iron Ore",
+        "abstract": "철광석입니다.",
+        "generator":[
+            {
+                "type": "BUILDINGS",
+                "id": 0,
+                "name": "Miner"
+            }
+        ] 
+    },
+    {
+        "id": 1,
+        "name": "Copper Ore",
+        "abstract": "구리 광석입니다.",
+        "generator":[
+            {
+                "type": "BUILDINGS",
+                "id": 0,
+                "name": "Miner"
+            }
+        ] 
+    },
+    {
+        "id": 2,
+        "name": "Gold Ore",
+        "abstract": "금 광석입니다.",
+        "generator":[
+            {
+                "type": "BUILDINGS",
+                "id": 0,
+                "name": "Miner"
+            }
+        ] 
+    },
+    {
+        "id": 3,
+        "name": "Zinc Ore",
+        "abstract": "철광석입니다.",
+        "generator":[
+            {
+                "type": "BUILDINGS",
+                "id": 0,
+                "name": "Miner"
+            }
+        ] 
+    },
+    {
+        "id": 4,
+        "name": "Stone",
+        "abstract": "돌입니다.",
+        "generator":[
+            {
+                "type": "BUILDINGS",
+                "id": 0,
+                "name": "Miner"
+            }
+        ] 
+    }
+]

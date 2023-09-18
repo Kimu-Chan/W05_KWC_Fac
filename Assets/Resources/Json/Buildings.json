@@ -1,0 +1,138 @@
+[
+    {
+        "id": 0,
+        "name": "Miner",
+        "abstract": "채굴기는 각종 광석들을 생산합니다.",
+        "details":
+        [
+            {
+                "title": "생산량",
+                "detail": "1초당 1개"
+            },
+            {
+                "title": "X Size",
+                "detail": "1"
+            },
+            {
+                "title": "Y Size",
+                "detail": "1"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Smelter",
+        "abstract": "제련소는 각종 광석들을 주괴로 제련합니다.",
+        "materials":
+        [
+            {
+                "type": "ELEMENTS",
+                "id": 1,
+                "material": "Copper Ore",
+                "qty": 3
+            }
+        ],
+        "details":
+        [
+            {
+                "title": "생산량",
+                "detail": "2초당 1개"
+            },
+            {
+                "title": "X Size",
+                "detail": "2"
+            },
+            {
+                "title": "Y Size",
+                "detail": "2"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Refinery",
+        "abstract": "정제소는 각종 원료를 사용 가능한 재료로 정제합니다",
+        "materials":
+        [
+            {
+                "type": "RESOURCES",
+                "id": 6,
+                "material": "Iron Plate",
+                "qty": 5
+            },
+            {
+                "type": "RESOURCES",
+                "id": 0,
+                "material": "Copper Ingot",
+                "qty": 10
+            },
+            {
+                "type": "RESOURCES",
+                "id": 5,
+                "material": "Copper Wire",
+                "qty": 10
+            }
+        ],
+        "details":
+        [
+            {
+                "title": "생산량",
+                "detail": "4초당 1개"
+            },
+            {
+                "title": "X Size",
+                "detail": "2"
+            },
+            {
+                "title": "Y Size",
+                "detail": "2"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Assembler",
+        "abstract": "조립기는 각종 원료와 재료를 사용 가능한 자재로 만듭니다.",
+        "materials":
+        [
+            {
+                "type": "RESOURCES",
+                "id": 6,
+                "material": "Iron Plate",
+                "qty": 5
+            },
+            {
+                "type": "ELEMENTS",
+                "id": 1,
+                "material": "Copper Ore",
+                "qty": 10
+            },
+            {
+                "type": "RESOURCES",
+                "id": 8,
+                "material": "Wood",
+                "qty": 10
+            }
+        ],
+        "details":
+        [
+            {
+                "title": "생산량",
+                "detail": "4초당 1개"
+            },
+            {
+                "title": "X Size",
+                "detail": "2"
+            },
+            {
+                "title": "Y Size",
+                "detail": "2"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Storage Tank",
+        "abstract": "작은 탱크 입니다."
+    }
+]

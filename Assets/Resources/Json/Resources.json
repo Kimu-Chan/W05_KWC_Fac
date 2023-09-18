@@ -1,0 +1,182 @@
+[
+    {
+        "id": 0,
+        "name": "Copper Ingot",
+        "abstract": "구리 주괴 입니다.",
+        "materials":
+        [
+            {
+                "type": "ELEMENTS",
+                "id": 1,
+                "material": "Copper Ore",
+                "qty": 2
+            }
+        ],
+        "generator": [
+            {
+                "type": "BUILDINGS",
+                "id": 1,
+                "name": "Smelter"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Iron Ingot",
+        "abstract": "철 주괴 입니다.",
+        "materials":
+        [
+            {
+                "type": "ELEMENTS",
+                "id": 0,
+                "material": "Iron Ore",
+                "qty": 2
+            }
+        ],
+        "generator": [
+            {
+                "type": "BUILDINGS",
+                "id": 1,
+                "name": "Smelter"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Gold Ingot",
+        "abstract": "금 주괴 입니다.",
+        "materials":
+        [
+            {
+                "type": "ELEMENTS",
+                "id": 2,
+                "material": "Gold Ore",
+                "qty": 2
+            }
+        ],
+        "generator": [
+            {
+                "type": "BUILDINGS",
+                "id": 1,
+                "name": "Smelter"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Zinc Ingot",
+        "abstract": "아연 주괴 입니다.",
+        "materials":
+        [
+            {
+                "type": "ELEMENTS",
+                "id": 3,
+                "material": "Zinc Ore",
+                "qty": 2
+            }
+        ],
+        "generator": [
+            {
+                "type": "BUILDINGS",
+                "id": 1,
+                "name": "Smelter"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Copper Plate",
+        "abstract": "구리 판 입니다.",
+        "materials":
+        [
+            {
+                "type": "RESOURCES",
+                "id": 0,
+                "material": "Copper Ingot",
+                "qty": 2
+            }
+        ],
+        "generator": [
+            {
+                "type": "BUILDINGS",
+                "id": 3,
+                "name": "Assembler"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Copper Wire",
+        "abstract": "구리선 입니다.",
+        "materials":
+        [
+            {
+                "type": "RESOURCES",
+                "id": 4,
+                "material": "Copper Plate",
+                "qty": 1
+            }
+        ],
+        "generator": [
+            {
+                "type": "BUILDINGS",
+                "id": 3,
+                "name": "Assembler"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Iron Plate",
+        "abstract": "철판 입니다.",
+        "materials":
+        [
+            {
+                "type": "RESOURCES",
+                "id": 1,
+                "material": "Iron Ingot",
+                "qty": 2
+            }
+        ],
+        "generator": [
+            {
+                "type": "BUILDINGS",
+                "id": 3,
+                "name": "Assembler"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Iron Rod",
+        "abstract": "철 봉 입니다.",
+        "materials":
+        [
+            {
+                "type": "RESOURCES",
+                "id": 6,
+                "material": "Iron Plate",
+                "qty": 2
+            }
+        ],
+        "generator": [
+            {
+                "type": "BUILDINGS",
+                "id": 3,
+                "name": "Assembler"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Wood",
+        "abstract": "나무 입니다.",
+        "generator":[
+            {
+                "type": "BUILDINGS",
+                "id": 0,
+                "name": "Miner"
+            }
+        ] 
+    }
+]
